@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Chris Ballinger" => "chris@openwatch.net" }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/Kickflip/kickflip-ios-sdk.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/v-ken/kickflip-ios-sdk.git", :tag => s.version.to_s }
 
   s.source_files  = 'Kickflip', 'Kickflip/**/*.{h,m,mm,cpp}'
   s.resources = 'Kickflip/Resources/*'
